@@ -1,16 +1,17 @@
 //Codigo do PI//
 
-alert("Codigo da PI");
+alert("=================================");
+alert("Bem Vindo ao Comparador de Preços");
+alert("=================================");
 
-//declaracao das variaveis
+//Declaracao das variaveis
 var valorAlcool;
 var valorGasolina;
 var razaoBase;
 var divAlcoolGasolina
-var sistema = 'S'
 
-//atribuicao e calculo de valor das variaveis
-while(sistema == 'S'){
+//Atribuicao e calculo de valor das variaveis
+do{
 razaoBase = 0.7;
 valorAlcool = prompt("Qual o preço do alcool: ");
 valorGasolina = prompt("Qual o preço da gasolina: ");
@@ -18,18 +19,18 @@ divAlcoolGasolina = (valorAlcool/valorGasolina)
 
 
 if (divAlcoolGasolina > razaoBase){
-   alert("Vale a pena a gasolina!")}
+   alert("\n Vale a pena a gasolina!")}
 else if (divAlcoolGasolina < razaoBase){
-   alert("Vale a pena o alcool!")}
+   alert("\n Vale a pena o alcool!")}
 else if (divAlcoolGasolina == razaoBase){
-   alert("Tanto faz um ou outro!")}
+   alert("\n Tanto faz um ou outro!")}
 else{
-   alert("ERRO NO SISTEMA!")
+   alert("\n ERRO NO SISTEMA!")
 }
 
-alert("Deseja inserir outros valores?");
-sistema = prompt("digite S para Sim e N para não")
+alert("\n Deseja inserir outros valores?");
+var resp = prompt("\n Digite s para Sim e n para não")
 
-}
+}while(resp == 's');
 
 alert("Obrigado por usar o comparador de preços!!!!")
