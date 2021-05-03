@@ -1,0 +1,3 @@
+Usar do while ao invés de while, ver o projeto da aula 7 como exemplo
+Mudar a declaração da string S para uma igual do projeto da aula 7
+alterar os alerts para organizar o código
